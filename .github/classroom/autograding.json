@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Find Word",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testFindWord",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "I Want",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testTransformIWantStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "I You",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testTransformIYouStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "I want To",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testTransformIWantToStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "You me",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testTransformYouMeStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
